@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+header {
+    background-color: #005f73;
+    color: white;
+    /* padding: 20px 0; */
+    text-align: center;
+}
+
+nav {
+    text-align: center;
+    margin: 20px 0;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #005f73;
+    font-weight: bold;
+}
+
+section {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #005f73;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+h1,
+h2 {
+    color: #005f73;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    color: white;
+    background: #005f73;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background: #023047;
+}
+
+>>>conda initialize>>># !! Contents within this block are managed by 'conda init' !! __conda_setup="$('/Users/elhadj/opt/anaconda3/bin/conda' 'shell.zsh' '$
+ if [ $? -eq 0];
+then eval "$__conda_setup" else if [ -f "/Users/elhadj/opt/anaconda3/etc/profile.d/conda.sh"];
+th$ . "/Users/elhadj/opt/anaconda3/etc/profile.d/conda.sh" else export PATH="/Users/elhadj/opt/anaconda3/bin:$PATH" export PATH=~/.npm-global/bin:$PATH fi fi unset __conda_setup # <<< conda initialize <<<
